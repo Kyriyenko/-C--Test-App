@@ -39,16 +39,16 @@ public:
     {
         if (this->_hour >= 13)
         {
-            cout << "(pm!)";
+            cout << "(pm!--)";
            this->_hour-=12;
         }
         else if (this->_hour = 12)
         {
-            cout << "(pm!)";
+            cout << "(pm!++)";
         }
         else
         {
-            cout << "(am!)";
+            cout << "(am!--)";
         }
     }
 
